@@ -1,7 +1,23 @@
 # NewsTreeMap
 
+## Visualize News Topics
+
+Most newspaper companies show headlines in raw text, but sometimes readers want to get a glimpse of current issues. 
+This project crawls healines from various online newspaper stand and creates a treemap with keywords that best describe the headlines. 
+
+
 **Crawling**
 - Collects article from portal sites (daum, naver)
+
+#### Article on daum.net (2022-07-09):
+![image](https://user-images.githubusercontent.com/58447982/178089521-956512d3-840f-4860-a507-5eb1a062870c.png)
+
+
+#### Extracted Article:
+
+![image](https://user-images.githubusercontent.com/58447982/178089510-f5f52ea4-2bb1-42c6-b830-8cd92a00c5f7.png)
+
+
 
 ```c
 def get_articles(self, url):
